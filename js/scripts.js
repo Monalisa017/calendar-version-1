@@ -92,3 +92,15 @@ const setNewDate = () => {
 }
 
 writeMonth(monthNumber);
+
+window.addEventListener("load", selection());
+function EscondeCalendario(){
+    var button = document.getElementById("calendario");
+
+    if(button.checked == true){
+        document.getElementById("calendario").hidden = false;
+    }
+    else{
+        document.getElementById("calendario").hidden = false;
+    }
+}
